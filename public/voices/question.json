@@ -1,0 +1,90 @@
+{
+  "text": "Are you ready to order, or do you need a minute?",
+  "language": "english",
+  "voice": "aai-carrie",
+  "sampleRate": 24000,
+  "firstAudioMs": 128,
+  "audioBytes": 134400,
+  "durationMs": 2800,
+  "wordTimingReceived": true,
+  "frames": [
+    {
+      "type": "FlushDone",
+      "flush_id": 0,
+      "audio_duration_ms": 2800
+    },
+    {
+      "type": "WordBoundaries",
+      "flush_id": 0,
+      "audio_start_ms": 0,
+      "words": [
+        {
+          "word": "Are",
+          "start": 181,
+          "end": 230,
+          "confidence": 0.08497229963541031
+        },
+        {
+          "word": "you",
+          "start": 279,
+          "end": 362,
+          "confidence": 0.9750229120254517
+        },
+        {
+          "word": "ready",
+          "start": 428,
+          "end": 559,
+          "confidence": 0.9664303064346313
+        },
+        {
+          "word": "to",
+          "start": 609,
+          "end": 724,
+          "confidence": 0.9056226015090942
+        },
+        {
+          "word": "order,",
+          "start": 774,
+          "end": 1037,
+          "confidence": 0.5054944753646851
+        },
+        {
+          "word": "or",
+          "start": 1581,
+          "end": 1614,
+          "confidence": 0.679764449596405
+        },
+        {
+          "word": "do",
+          "start": 1679,
+          "end": 1729,
+          "confidence": 0.43937423825263977
+        },
+        {
+          "word": "you",
+          "start": 1745,
+          "end": 1778,
+          "confidence": 0.40297746658325195
+        },
+        {
+          "word": "need",
+          "start": 1778,
+          "end": 2025,
+          "confidence": 0.834014892578125
+        },
+        {
+          "word": "a",
+          "start": 2025,
+          "end": 2042,
+          "confidence": 0.05631997063755989
+        },
+        {
+          "word": "minute?",
+          "start": 2091,
+          "end": 2289,
+          "confidence": 0.8568150401115417
+        }
+      ]
+    }
+  ]
+}

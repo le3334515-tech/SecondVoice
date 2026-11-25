@@ -1,17 +1,30 @@
 {
-  "name": "secondvoice",
-  "version": "1.0.0",
+  "name": "second-voice",
+  "version": "0.1.0",
   "private": true,
-  "type": "module",
-  "description": "写下一句话，让它替你说出来：念的时候可以继续改，随时打断，随时重说。纯前端 Web Speech，无密钥。",
-  "homepage": "https://le3334515-tech.github.io/SecondVoice/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/le3334515-tech/SecondVoice.git"
-  },
   "scripts": {
-    "start": "node server.mjs",
-    "check": "node --check js/app.js && node --check js/speech.js && node --check js/text.js && node --check js/ribbon.js && node --check js/phrases.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "node --experimental-transform-types --test tests/*.test.ts"
   },
-  "license": "MIT"
+  "dependencies": {
+    "@fontsource-variable/instrument-sans": "^5.3.0",
+    "@fontsource-variable/jetbrains-mono": "^5.3.0",
+    "@vercel/firewall": "^1.2.6",
+    "lucide-react": "^0.552.0",
+    "motion": "^12.23.24",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "eslint": "^9.39.0",
+    "eslint-config-next": "^16.0.0",
+    "typescript": "^5.9.3"
+  }
 }
